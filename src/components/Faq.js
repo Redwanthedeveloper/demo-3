@@ -5,105 +5,104 @@ import SingleFaq from "./SingleFaq";
 const Faq = () => {
   return (
     <>
-      <div
-        className="faq mt-20 lg:mt-32 relative"
-        id="faq"
-        // style={{ background: `url(${bg})` }}
-      >
-        <div className="faq__image"></div>
-        <div className="container mx-auto">
-          <h2
-            className="text-center text-secondary text-3xl uppercase font-bold pt-12"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            FREQUENTLY ASKED QUESTIONS
-          </h2>
-          <div className="px-4 pt-4 sm:pt-8">
-            <div
-              className="text-left"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <div className="py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                <SingleFaq
-                  title="HOW MUCH IS A MEDICAL HERO?"
-                  content=".04 ETH"
-                />
-              </div>
+      <div className="mt-14" id="faq">
+        <div className="mx-auto">
+          <div className="md:mx-[204px] title flex gap-12 items-center  mb-8">
+            <h3 className="text-left uppercase font-semibold font-primary text-4xl">
+              Faq
+            </h3>
+            <div className="line__holder h-[2px] w-[286px] bg-secondary"></div>
+          </div>
+          <div className="px-6">
+            <div className="mb-10">
+              <SingleFaq
+                title="When is mint?"
+                content="2022. Exact date and time will be announced through twitter and discord. 
+                "
+              />
             </div>
 
-            <div
-              className="text-left"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <div className="py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                <SingleFaq title="HOW MANY IN TOTAL?" content="10,000" />
-              </div>
+            <div className="mb-10">
+              <SingleFaq
+                title="How many can I mint?
+                "
+                content="The maximum each verified wallet can mint is 1
+                "
+              />
             </div>
 
-            <div
-              className="text-left"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <div className="py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                <SingleFaq
-                  title="PUBLIC MINT DATE?"
-                  content='TBA "But soon!"'
-                />
-              </div>
+            <div className="mb-10">
+              <SingleFaq
+                title="Why only one 1 mint per wallet?
+                "
+                content="We want to ensure everyone utilizes the utility. The purpose of the NFT is to help and drive people towards being fit and healthy. Having multiple doesn’t help towards that goal and takes away an opportunity from someone else. "
+              />
             </div>
 
-            <div
-              className="text-left"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <div className="py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                <SingleFaq
-                  title="PRE-SALE DATE?"
-                  content="Yes we will do a Pre-sale two days before Public Launch. Please join our discord to learn how you can join our pre-sale."
-                />
-              </div>
+            <div className="mb-10">
+              <SingleFaq
+                title=" When is the app and token releasing?
+                "
+                content="  The token and app will release Q4 2022. The app will have beta testing Q3 2022.
+                "
+              />
+            </div>
+            <div className="mb-10">
+              <SingleFaq
+                title="What is the NFT award/Achievement system?
+                "
+                content="Reaching certain goals and completing challenges you are awarded with NFT trophies.  Some challeges are easy to get and some are difficult.  Some certain NFT trophies will be awarded to one person. 
+                "
+              />
             </div>
 
-            <div
-              className="text-left"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <div className="py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                <SingleFaq
-                  title="WHEN WILL THEY BE REVEALED?"
-                  content="24 hours after public mint date"
-                />
-              </div>
+            <div className="mb-10">
+              <SingleFaq
+                title="How do I earn money from being fit and active?"
+                content="The app that connects to the NFT utilizes the data gathered from your apple ,fitbit or galaxy watch and give you points for being active. The more active you are the more points you get. You use the points to get your tokens which you can use to purchase products from the website.
+                "
+              />
             </div>
-            <div
-              className="text-left"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <div className="py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                <SingleFaq
-                  title="WEBSITE?"
-                  content="You can find our website here: COMING SOON"
-                />
-              </div>
+
+            <div className="mb-10">
+              <SingleFaq
+                title="What is the PVP part for the NFT?
+                "
+                content="There is a 10 level ladder system.  You are put against another user for a week.  The person with the most points win. If you keep winning at your current level you move up to the next level If you lose too many match ups you get bumped down a level.  Example if you are on level 5 and lose 4 in a row you will go down to level 4 and have to work you way back up. 
+
+                "
+              />
             </div>
-            <div
-              className="text-left"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <div className="py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                <SingleFaq
-                  title="HOW CAN I USE MY NFT?"
-                  content="The possibilities are many. However, outside of owning the first NFT collection ever minted on the ETH Blockchain that represents a memoir of “real life” events that will always be apart of mankind’s history, you can use it as a profile picture online, resell it for profit, gift several to a Medical Hero, or hold onto it! As the value increases, this can be the art you hang in the future Modern Metaverse History Museum where you will also be able to mint your personal Heroic journey as a poetic expression of what your experience has been during this Pandemic."
-                />
-              </div>
+
+            <div className="mb-10">
+              <SingleFaq
+                title="What is the difference between the basic DMF NFT and the gold edition?
+
+                "
+                content="The gold DMF NFT has 1.5x point multiplier and the basic DMF NFT has a 1x point multiplier
+                "
+              />
+            </div>
+
+            <div className="mb-10">
+              <SingleFaq
+                title="Will there be a massive release? 
+
+                "
+                content="Q1 in 2023 we will be releasing a 20,0000 piece collection. That collection will have DMF NFTs with .75x multiplier and .50x multiplier.  
+                "
+              />
+            </div>
+
+            <div className="">
+              <SingleFaq
+                title="Which blockchain?
+
+                "
+                content="The DMF NFTs will be minted on Ethereum  block chain 
+
+                "
+              />
             </div>
           </div>
         </div>

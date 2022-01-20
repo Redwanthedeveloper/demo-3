@@ -10,18 +10,18 @@ const About = () => {
   return (
     <div className="about mt-14" id="about">
       <div className="wrapper">
-        <div className=" mx-[204px] title flex gap-12 items-center">
+        <div className="md:mx-[204px] title flex gap-12 items-center">
           <h3 className="text-left uppercase font-semibold font-primary text-4xl ">
             About
           </h3>
           <div className="line__holder h-[2px] w-[286px] bg-secondary"></div>
         </div>
-        <div className="mt-5 grid grid-cols-2 gap-[25px]">
+        <div className="mt-5 grid md:grid-cols-2 gap-[25px]">
           <div className="box__1 flex flex-col justify-center items-center p-4 rounded-[30px]">
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage1} alt="" className=" rounded-full" />
             </div>
-            <p className="text-left font-primary font-normal text-[25px]">
+            <p className="text-left font-primary font-normal md:text-xl lg:text-[25px]">
               This is a “Be fit to earn” utility. The function of the NFT is to
               have people earn income/tokens/NFTs while they are hitting there
               Fitness goals. It is similar to the “Play to earn concept”. The
@@ -39,7 +39,7 @@ const About = () => {
               <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
                 <img src={boxImage2} alt="" className=" rounded-full" />
               </div>
-              <p className="text-left font-primary font-normal text-[25px]">
+              <p className="text-left font-primary font-normal md:text-xl lg:text-[25px]">
                 The DMF App will connect to your NFT to verify. The DMF app will
                 connect to your Apple Watch, Fitbit or Samsung watch fitness
                 tracker and rewards you points for your Fittness metrics. There
@@ -57,7 +57,7 @@ const About = () => {
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage3} alt="" className=" rounded-full" />
             </div>
-            <p className="text-left font-primary font-normal text-[25px]">
+            <p className="text-left font-primary font-normal md:text-xl lg:text-[25px]">
               The DMF app will have Monthly leaderboards for points and rewards
               the top 10 with bonus points/multipliers. You can post on the DMF
               app and have your personal or other NFTs as profile pics. Each
@@ -73,7 +73,7 @@ const About = () => {
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage4} alt="" className=" rounded-full" />
             </div>
-            <p className="text-left font-primary font-normal text-[25px]">
+            <p className="text-left font-primary font-normal md:text-xl lg:text-[25px]">
               There will be PvP aspect. There will be 10 level ranking system.
               You are only allowed to challenge people who are on the same level
               as you. When you win a certain amount you will level up and are
@@ -87,14 +87,14 @@ const About = () => {
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage5} alt="" className=" rounded-full" />
             </div>
-            <p className="text-left font-primary font-normal text-[25px]">
+            <p className="text-left font-primary font-normal md:text-xl lg:text-[25px]">
               The Gold NFT earns you 1.5x points. Only 500 of these Insert
               Picture Insert picture
             </p>
             <img
               src={dots}
               alt=""
-              className="absolute -bottom-40 left-0 -z-10"
+              className="absolute -bottom-40 left-0 -z-10 hidden md:block"
             />
           </div>
 
@@ -102,7 +102,7 @@ const About = () => {
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage6} alt="" className=" rounded-full" />
             </div>
-            <p className="text-left font-primary font-normal text-[25px]">
+            <p className="text-left font-primary font-normal md:text-xl lg:text-[25px]">
               There are 2 Types of NFT The basic NFT gets you 1x points. There
               are 8000 of these
             </p>

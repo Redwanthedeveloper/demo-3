@@ -10,13 +10,13 @@ const Collection = () => {
   return (
     <div className="mt-14" id="collection">
       <div className="wrapper">
-        <div className=" mx-[204px] title flex gap-12 items-center">
-          <h3 className="text-left uppercase font-semibold font-primary text-4xl ">
+        <div className="md:mx-[204px] title flex gap-12 items-center">
+          <h3 className="text-left uppercase font-semibold font-primary text-4xl">
             Collection
           </h3>
           <div className="line__holder h-[2px] w-[286px] bg-secondary"></div>
         </div>
-        <div className="mt-5 grid grid-cols-3 rounded-[50px] mx-8 collection py-4 px-20">
+        <div className="mt-5 grid grid-cols-2 lg:grid-cols-3 rounded-[50px] lg:mx-8 collection py-4 px-6 md:px-20 gap-8 md:gap-24 lg:gap-12">
           <div className="image mb-2">
             <img src={boxImage1} alt="" />
           </div>
