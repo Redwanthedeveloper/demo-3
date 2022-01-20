@@ -17,7 +17,11 @@ const About = () => {
           <div className="line__holder h-[2px] w-[286px] bg-secondary"></div>
         </div>
         <div className="mt-5 grid md:grid-cols-2 gap-[25px]">
-          <div className="box__1 flex flex-col justify-center items-center p-4 rounded-[30px]">
+          <div
+            className="box__1 flex flex-col justify-center items-center p-4 rounded-[30px]"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+          >
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage1} alt="" className=" rounded-full" />
             </div>
@@ -32,7 +36,11 @@ const About = () => {
             </p>
           </div>
 
-          <div className="box__2  rounded-[30px] relative">
+          <div
+            className="box__2  rounded-[30px] relative"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+          >
             <img src={dots} alt="" className="absolute -z-10 right-0 top-28" />
 
             <div className="flex flex-col justify-center items-center p-4">
@@ -53,7 +61,11 @@ const About = () => {
             </div>
           </div>
 
-          <div className="box__3 flex flex-col justify-center items-center p-4 rounded-[30px]">
+          <div
+            className="box__3 flex flex-col justify-center items-center p-4 rounded-[30px]"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+          >
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage3} alt="" className=" rounded-full" />
             </div>
@@ -69,7 +81,11 @@ const About = () => {
             </p>
           </div>
 
-          <div className="box__4 flex flex-col justify-center items-center p-4 rounded-[30px]">
+          <div
+            className="box__4 flex flex-col justify-center items-center p-4 rounded-[30px]"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+          >
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage4} alt="" className=" rounded-full" />
             </div>
@@ -83,7 +99,11 @@ const About = () => {
             </p>
           </div>
 
-          <div className="box__5 flex flex-col justify-center items-center p-4 rounded-[30px] relative z-10">
+          <div
+            className="box__5 flex flex-col justify-center items-center p-4 rounded-[30px]  relative z-10"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+          >
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage5} alt="" className=" rounded-full" />
             </div>
@@ -98,7 +118,11 @@ const About = () => {
             />
           </div>
 
-          <div className="box__6 flex flex-col justify-center items-center p-4 rounded-[30px]">
+          <div
+            className="box__6 flex flex-col justify-center items-center p-4 rounded-[30px]"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+          >
             <div className="box__image rounded-full h-[150px] w-[153px] overflow-hidden">
               <img src={boxImage6} alt="" className=" rounded-full" />
             </div>

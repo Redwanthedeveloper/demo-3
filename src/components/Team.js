@@ -16,7 +16,11 @@ const Team = () => {
 
         <div className="mt-5 grid lg:grid-cols-3 font-primary  team px-8 md:px-20 pt-28 pb-56 gap-[100px] relative">
           <img src={dots} alt="" className="absolute right-5 z-10 top-10" />
-          <div className="box border-[1px] border-[#fff] rounded-tl-[50px] rounded-tr-[50px] rounded-br-[50px] flex flex-col items-center justify-end relative h-[446px]">
+          <div
+            className="box border-[1px] border-[#fff] rounded-tl-[50px] rounded-tr-[50px] rounded-br-[50px] flex flex-col items-center justify-end relative h-[446px]"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
             <img src={boxImage1} alt="" className="absolute  -top-16" />
             <p className="title uppercase text-center font-[600] text-4xl mb-16 text-white">
               Jack
@@ -26,7 +30,11 @@ const Team = () => {
             </p>
           </div>
 
-          <div className="box border-[1px] border-[#fff] rounded-tl-[50px] rounded-tr-[50px] rounded-br-[50px] flex flex-col items-center justify-end relative h-[446px]">
+          <div
+            className="box border-[1px] border-[#fff] rounded-tl-[50px] rounded-tr-[50px] rounded-br-[50px] flex flex-col items-center justify-end relative h-[446px]"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
             <img src={boxImage2} alt="" className="absolute  -top-16" />
             <p className="title uppercase text-center font-[600] text-4xl mb-16 text-white">
               sam
@@ -36,8 +44,12 @@ const Team = () => {
             </p>
           </div>
 
-          <div className="box border-[1px] border-[#fff] rounded-tl-[50px] rounded-tr-[50px] rounded-br-[50px] flex flex-col items-center justify-end relative h-[446px]">
-            <img src={boxImage3} alt="" className="absolute  -top-16" />
+          <div
+            className="box border-[1px] border-[#fff] rounded-tl-[50px] rounded-tr-[50px] rounded-br-[50px] flex flex-col items-center justify-end relative h-[446px]"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
+            <img src={boxImage3} alt="" className="absolute -top-16" />
             <p className="title uppercase text-center font-[600] text-4xl mb-16 text-white">
               Mark
             </p>

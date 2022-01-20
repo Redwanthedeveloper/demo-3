@@ -24,7 +24,11 @@ const Roadmap = () => {
             className="absolute left-2/4 transform -translate-x-2/4 hidden xl:block"
           />
 
-          <div className="roadmap__items mb-6 xl:mb-0  ">
+          <div
+            className="roadmap__items mb-6 xl:mb-0"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             <div className="relative 2xl:top-[2.75rem] 2xl:-left-36 xl:top-[1.75rem] xl:-left-32 px-8 md:gap-32 xl:px-96 flex lg:px-20 items-center justify-center w-full ">
               <div className="flex-1">
                 <h2 className="mb-2 text-primary text-4xl uppercase font-bold">
@@ -45,7 +49,11 @@ const Roadmap = () => {
             </div>
           </div>
 
-          <div className="roadmap__items mb-6 xl:mb-0">
+          <div
+            className="roadmap__items mb-6 xl:mb-0"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="relative xl:top-[3.5rem] 2xl:top-[6.5rem] 2xl:-right-80 xl:-right-32 px-8 md:gap-32 flex-row-reverse  xl:px-96 flex lg:px-20 items-center w-full ">
               <div className="flex-1">
                 <h2 className="mb-2 text-primary text-4xl uppercase font-bold">
@@ -65,7 +73,11 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <div className="roadmap__items mb-6 xl:mb-0  ">
+          <div
+            className="roadmap__items mb-6 xl:mb-0  "
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <div className="relative xl:top-[5.25rem] xl:-left-32 px-8 md:gap-32 2xl:-left-36 2xl:top-[9.75rem] xl:px-96 flex lg:px-20 items-center justify-center w-full ">
               <div className="flex-1">
                 <h2 className="mb-2 text-primary text-4xl uppercase font-bold">
@@ -86,7 +98,11 @@ const Roadmap = () => {
             </div>
           </div>
 
-          <div className="roadmap__items mb-6 xl:mb-0  ">
+          <div
+            className="roadmap__items mb-6 xl:mb-0  "
+            data-aos="fade-up"
+            data-aos-duration="1400"
+          >
             <div className="relative 2xl:top-[13.5rem] 2xl:-right-80 xl:top-[7rem] xl:-right-32 px-8 md:gap-32 flex-row-reverse  xl:px-96 flex lg:px-20 items-center justify-center w-full ">
               <div className="flex-1">
                 <h2 className="mb-2 text-primary text-4xl uppercase font-bold">
@@ -107,7 +123,11 @@ const Roadmap = () => {
             </div>
           </div>
 
-          <div className="roadmap__items mb-6 xl:mb-0  ">
+          <div
+            className="roadmap__items mb-6 xl:mb-0  "
+            data-aos="fade-up"
+            data-aos-duration="1600"
+          >
             <div className="relative xl:top-[8.75rem] xl:-left-32 px-8 2xl:top-[17.5rem] 2xl:-left-36 md:gap-32 xl:px-96 flex lg:px-20 items-center justify-center w-full ">
               <div className="flex-1">
                 <h2 className="mb-2 text-primary text-4xl uppercase font-bold">

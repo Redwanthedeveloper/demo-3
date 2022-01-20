@@ -1,10 +1,6 @@
 import React from "react";
-import boxImage1 from "../assets/images/collection/1.png";
-import boxImage2 from "../assets/images/collection/2.png";
-import boxImage3 from "../assets/images/collection/3.png";
-import boxImage4 from "../assets/images/collection/4.png";
-import boxImage5 from "../assets/images/collection/5.png";
-import boxImage6 from "../assets/images/collection/6.png";
+import boxImage1 from "../assets/images/collection/1.mp4";
+import boxImage2 from "../assets/images/collection/2.mp4";
 
 const Collection = () => {
   return (
@@ -16,29 +12,29 @@ const Collection = () => {
           </h3>
           <div className="line__holder h-[2px] w-[286px] bg-secondary"></div>
         </div>
-        <div className="mt-5 grid grid-cols-2 lg:grid-cols-3 rounded-[50px] lg:mx-8 collection py-4 px-6 md:px-20 gap-8 md:gap-24 lg:gap-12">
-          <div className="image mb-2">
-            <img src={boxImage1} alt="" />
-          </div>
-          <div className="image mb-2">
-            <img src={boxImage2} alt="" />
-          </div>
-
-          <div className="image mb-2">
-            <img src={boxImage3} alt="" />
-          </div>
-
-          <div className="image mb-2">
-            <img src={boxImage4} alt="" />
-          </div>
-
-          <div className="image mb-2">
-            <img src={boxImage5} alt="" />
-          </div>
-
-          <div className="image mb-2">
-            <img src={boxImage6} alt="" />
-          </div>
+        <div className="mt-5 grid grid-cols-1 md:grid-cols-2 rounded-[50px] lg:mx-8 collection py-4 px-6 md:px-20 gap-8 md:gap-24 lg:gap-12">
+          <video
+            controls
+            autoPlay
+            loop
+            muted
+            className="rounded-3xl"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <source src={boxImage1} type="video/mp4" />
+          </video>
+          <video
+            controls
+            autoPlay
+            loop
+            muted
+            className="rounded-3xl"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <source src={boxImage2} type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>
